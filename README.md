@@ -97,15 +97,15 @@ flutter run --no-sound-null-safety
 ```
 
 ## **👍 Best Practices Followed**  
-✅ **MVVM Structure** for better code maintainability
-✅ **GetX** for routing, state management, and dependency injection
-✅ **Supabase Auth & Database Integration**
+✅ **MVVM Structure** for better code maintainability   
+✅ **GetX** for routing, state management, and dependency injection     
+✅ **Supabase Auth & Database Integration**     
 ✅ **Environment Variables (.env)** for security
 
 ---
 
 ## **🔖 API Endpoints Used**  
-✅ **Authentication**: Supabase Auth (Login, Register, Logout)
+✅ **Authentication**: Supabase Auth (Login, Register, Logout)  
 ✅ **Database Operations**: CRUD for Tests & Users
 
 ---
