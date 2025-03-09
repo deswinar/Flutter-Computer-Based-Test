@@ -22,6 +22,11 @@ class StudentDashboardView extends StatelessWidget {
         centerTitle: true,
         actions: [
           IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () => Get.toNamed(Routes.PROFILE),
+            tooltip: "Profile",
+          ),
+          IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () {
               Get.defaultDialog(
@@ -107,8 +112,7 @@ class StudentDashboardView extends StatelessWidget {
                 icon: Icons.history,
                 onTap: () => Get.toNamed(Routes.PAST_TESTS),
               ),
-              const SizedBox(height: 20),
-
+              const SizedBox(height: 10), // Added spacing
               // Recent Activity
               Text(
                 "Recent Activity",

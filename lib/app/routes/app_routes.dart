@@ -19,6 +19,7 @@ abstract class Routes {
   static const PAST_TESTS = _Paths.PAST_TESTS;
   static const TEST_DETAILS = _Paths.TEST_DETAILS;
   static const SPLASH = _Paths.SPLASH;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -39,4 +40,5 @@ abstract class _Paths {
   static const PAST_TESTS = '/past-tests';
   static const TEST_DETAILS = '/test-details';
   static const SPLASH = '/splash';
+  static const PROFILE = '/profile';
 }

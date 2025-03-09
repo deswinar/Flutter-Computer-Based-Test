@@ -20,6 +20,11 @@ class TeacherDashboardView extends StatelessWidget {
         centerTitle: true,
         actions: [
           IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () => Get.toNamed(Routes.PROFILE),
+            tooltip: "Profile",
+          ),
+          IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () {
               Get.defaultDialog(
